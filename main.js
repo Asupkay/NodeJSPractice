@@ -9,7 +9,7 @@ http.createServer(function( request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
 
     //Sendn the response body as "Hello World"
-    response.end('Hey steph how\'s it going?\n');
+    response.end('Oh shit wattup?\n');
 }).listen(8081);
 
 console.log("Server is running at http://127.0.0.1:8081");
